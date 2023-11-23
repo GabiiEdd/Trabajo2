@@ -1,0 +1,32 @@
+body {
+  height: 100vh; /* Establece el alto del documento completo */
+  margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+  padding: 0; /* Elimina los rellenos predeterminados del cuerpo */
+  flex-direction: column;
+}
+.AppContenedor {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  flex: 1;
+  height: 41rem;
+  background-color: antiquewhite;
+}
+.columna1 {
+  border-radius: 20px;
+  margin: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  grid-column: 1;
+  background-color: #6c8099;
+}
+
+.columna2 {
+  margin: 30px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  grid-column: 2;
+  background-color: #6c8099;
+}
